@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(255, 81, 0), red);
+  display: flex;
+  padding: 6vh 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  height: 87vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+span {
+  width: 45vh;
+  height: 25vh;
+  display: flex;
+  color: white;
+  font-size: 2.7rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.div-2 {
+  padding: 6vh 0;
+}
+
+.span-1 {
+  border: none;
+}
+
+.span-2 {
+  border: dotted;
+}
+
+.span-3 {
+  border: dashed;
+}
+
+.span-4 {
+  border: solid;
+}
+
+.span-5 {
+  border: double;
+}
+
+.span-6 {
+  border: groove;
+}
+
+.span-7 {
+  border: ridge;
+}
+
+.span-8 {
+  border: inset;
+}
+
+.span-9 {
+  border: outset;
+}
